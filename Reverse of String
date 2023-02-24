@@ -1,0 +1,14 @@
+class Reverse
+{
+  
+    public static String reverseWord(String str)
+    {
+        String st="";
+        char ch;
+        for(int i=0;i<str.length();i++){
+            ch=str.charAt(i);
+            st=ch+st;
+        }
+        return st;
+    }
+}
